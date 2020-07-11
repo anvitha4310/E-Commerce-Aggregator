@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ANVITHA ECOMMERCE AGGERATOR</title>
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/2081e9895f.css">
+<script src="https://use.fontawesome.com/e2bedc37f2.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<style>
+  body{
+    border : 20px solid #ff9d2f;
+    max-width:10000px;
+    width:100%;
+    margin: auto;
+    font-family: source sans pro;
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/11/18/49/online-3217733_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+       
+h2{
+  color: #2c3e50;
+  margin:1.66%;
+  font-size: 2.0rem
+  
+}
+.one{
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+
+p{
+  margin:1.66%;
+  
+}
+header {
+  position: relative;
+  height: 300px;
+  background-image: linear-gradient(#ff9d2f, #ff6126);
+  border-bottom-left-radius: 50% 20%;
+  border-bottom-right-radius: 50% 20%;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+h1 {
+  margin: 0;
+  padding: 100px 0;
+  font: 44px "Arial";
+  text-align: center;
+}
+
+header h1 {
+  color: white;
+}
+
+.divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  /* drop the height to have a constant angle for all screen widths */
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+h5{
+  color: #3474db;
+  margin:1.66%;
+  font-size: 1.3rem;
+  font-family:Arial Black Web Safe Font;
+  text-align: right;}
+table.steelBlueCols {
+  font-family: source sans pro;
+  background-color: #6C757D;
+  width: 100%;
+  height: 240px;
+  text-align: left;
+  border-collapse: collapse;
+  border: 1px solid #000
+}
+table.steelBlueCols td, table.steelBlueCols th {
+  border: 1px solid #FFFFFF;
+  padding: 5px 10px;
+  text-align: left;
+
+}
+table.steelBlueCols tbody td {
+  font-size: 12px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+table.steelBlueCols tr:nth-child(even) {
+  background: #343A40;
+}
+table.steelBlueCols thead {
+  background: #6C757D;
+  background: -moz-linear-gradient(top, #91979d 0%, #7a828a 66%, #6C757D 100%);
+  background: -webkit-linear-gradient(top, #91979d 0%, #7a828a 66%, #6C757D 100%);
+  background: linear-gradient(to bottom, #91979d 0%, #7a828a 66%, #6C757D 100%);
+  border-bottom: 10px solid #FFFCFC;
+}
+table.steelBlueCols thead th {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+  border-left: 2px solid #FFFFFF;
+}
+table.steelBlueCols thead th:first-child {
+  border-left: none;
+}
+
+table.steelBlueCols tfoot td {
+  font-size: 13px;
+}
+table.steelBlueCols tfoot .links {
+  text-align: right;
+}
+table.steelBlueCols tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #398AA4;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 12px;"
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+</style>
+</head>
+<header>
+   <div class="form-inline my-2 my-lg-0">
+       {% if user.is_authenticated %}
+      <b class="one" style="color: #ffffff"><i class="fas fa-user-circle fa-lg"></i>{{request.user}}</b>&nbsp;
+      <br>
+      <a style="padding-left: 15px" class="btn btn-outline-danger my-2 my-sm-0" href="{% url 'account_logout' %}">Logout</a>
+      {% else %}
+      <a style="padding-left: 15px"class="btn btn-outline-success my-2 my-sm-0" href="{% url 'account_login' %}">Login</a>
+      {% endif %}
+    </div>
+  <h1><i class="fas fa-dumpster-fire fa-3x"></i>ECOMMERCE AGGERATOR</h1>
+</header>
+<body>
+<div class="container">
+<form action = "" method = "get">
+  <div class="nav" class="row">
+<div class="col" class="input-group input-group-sm mb-3">
+  <div class="input-group-prepend">
+    <span for="id_category" class="input-group-text" id="inputGroup-sizing-sm">Category</span>
+  </div>
+  <input type="text" id="id_category" name="category" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+</div>
+<div class="col" class="input-group input-group-sm mb-3">
+  <div class="input-group-prepend">
+    <span for="id_product" class="input-group-text" id="inputGroup-sizing-sm">Product</span>
+  </div>
+  <input type="text" class="form-control"id="id_product" name="product" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+</div>
+  <button type="submit" class="col" value="Search"><span><i class="fas fa-search fa-2x"></i></span></button>
+</form>
+</div>
+<br><br>
+<table class="steelBlueCols">
+  <thead>
+    <tr>
+      <th scope="col">Flipkart</th>
+        {% for col in column_names %}
+      <th scope="col">{{col}}</th>
+        {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% if flipkart %}
+    {% for i,j in flipkart %}
+    <tr>
+      <th style="color: #ffffff;" scope="row">{{forloop.counter}}</th>
+      <td>{{i}}</td>
+      <td>{{j}}</td>
+    </tr>
+    {% endfor %}
+    {% endif %}
+  </tbody>
+</table>
+<hr>
+<br><br>
+<table class="steelBlueCols">
+  <thead>
+    <tr>
+      <th scope="col">Paytm</th>
+        {% for col in column_names %}
+      <th scope="col">{{col}}</th>
+        {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% if paytm %}
+    {% for i,j in paytm %}
+    <tr>
+      <th style="color: #ffffff;" scope="row">{{forloop.counter}}</th>
+      <td>{{i}}</td>
+      <td>{{j}}</td>
+    </tr>
+    {% endfor %}
+    {% endif %}
+  </tbody>
+</table>
+<hr>
+<br><br>
+<table class="steelBlueCols">
+  <thead>
+    <tr>
+      <th scope="col">SnapDeal</th>
+        {% for col in column_names %}
+      <th scope="col">{{col}}</th>
+        {% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+    {% if snapdeal %}
+    {% for i,j in snapdeal %}
+    <tr>
+      <th style="color: #ffffff;" scope="row">{{forloop.counter}}</th>
+      <td>{{i}}</td>
+      <td>{{j}}</td>
+    </tr>
+    {% endfor %}
+    {% endif %}
+  </tbody>
+</table>
+<hr>
+<br><br><br>
+<p style="font-size:15px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: #ffffff">
+              Select the category of the product and enter name of the product.
+              Once you click on the search button , the products which are available on flipkart , snapdeal , paytm mall will be displayed 
+              below. 
+             <br><b>Enter 1 for mobile category </b><br>
+             This list is same as the search results of the product in the respective sites.If there is input mistake or error , name or price is not displayed. 
+            </p>
+</div>
+   <script type="text/javascript">
+      (function myFunction() {
+    var div = document.createElement("div");
+    document.getElementsByTagName('body')[0].appendChild(div);
+    div.outerHTML = "<div id='botDiv' style='height: 38px; position: fixed; bottom: 0; z-index: 1000; background-color: #fff'><div id='botTitleBar' style='height: 38px; width: 400px; position:fixed; cursor: pointer;'></div><iframe width='400px' height='600px' allow='microphone' src='https://console.dialogflow.com/api-client/demo/embedded/2d9020b5-a175-4c38-8937-1e11aadd974d'></iframe></div>"; 
+
+    document.querySelector('body').addEventListener('click', function (e) {
+        e.target.matches = e.target.matches || e.target.msMatchesSelector;
+        if (e.target.matches('#botTitleBar')) { 
+            var botDiv = document.querySelector('#botDiv'); 
+            botDiv.style.height = botDiv.style.height == '600px' ? '38px' : '600px';
+        };
+    });
+}());
+    </script>
+    
+    
+
+
+</body>
+ <footer class="footer">
+      <div class="container">
+        <span class="text-muted">@2020</span>
+      </div>
+    </footer>
+</html>
